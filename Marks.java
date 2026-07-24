@@ -92,7 +92,7 @@ public class Marks{
                         }
                         double sub_average = (double)sub_total / no_std;
 
-                        System.out.printf("Average of selected subject is %d ",sub_average);
+                        System.out.printf("Average of selected subject is %.2f ",sub_average);
                     }else{
                         System.out.printf("Wrong input");
                     }
@@ -144,7 +144,7 @@ public class Marks{
                         std_total = std_total + matrix[place][j];
                     }
 
-                    System.out.printf("Total of selected student %d is %.2f ", stdid , std_total);
+                    System.out.printf("Total of selected student %d is %d ", stdid , std_total);
                     break;
                 }
             case 6 :
