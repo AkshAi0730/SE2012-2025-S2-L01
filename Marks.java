@@ -118,7 +118,7 @@ public class Marks{
                         std_total = std_total + matrix[place][j];
                     }
                     double std_average = (double)std_total / 3;
-                    System.out.printf("Average of selected student %d is %d ", stdid , std_average);
+                    System.out.printf("Average of selected student %d is %.2f ", stdid , std_average);
                     break;
                 }
             case 5 :
@@ -144,7 +144,7 @@ public class Marks{
                         std_total = std_total + matrix[place][j];
                     }
 
-                    System.out.printf("Total of selected student %d is %d ", stdid , std_total);
+                    System.out.printf("Total of selected student %d is %.2f ", stdid , std_total);
                     break;
                 }
             case 6 :
